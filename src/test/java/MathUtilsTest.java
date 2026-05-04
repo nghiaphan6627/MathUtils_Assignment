@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MathUtilsTest {
     @Test
     void testMax() {
-        assertEquals(10, MathUtils.max(5, 10));
+        assertEquals(99, MathUtils.max(5, 10));
         assertEquals(7, MathUtils.max(7, 3));
     }
 
